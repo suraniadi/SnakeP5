@@ -16,6 +16,7 @@ function pickLocation() {
 }
 
 function draw() {
+    console.log(dist(s.x, s.y, food.x, food.y));
     background(51);
 
     if(s.eat(food)){
